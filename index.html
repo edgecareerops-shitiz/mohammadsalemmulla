@@ -138,7 +138,8 @@
         }
         .carousel-slide.active { opacity: 1; }
         .carousel-slide img {
-            width: 100%; height: 100%; object-fit: cover;
+            width: 100%; height: 100%; object-fit: contain; background: #f5f5f5;
+
             -webkit-user-drag: none; user-select: none;
         }
         .carousel::after {
@@ -584,19 +585,72 @@
             </div>
 
             <!-- Project 06: Interior Project (1 image — ready for more) -->
-            <div class="project-item">
-                <div class="project-number">06</div>
-                <div class="project-info">
-                    <h3 class="project-title">Interior Project</h3>
-                    <p class="project-subtitle">Metropolitan Layers</p>
-                    <p class="project-description">A contemporary interior project balancing refined materiality with functional planning in a dynamic urban context.</p>
-                </div>
-                <div class="project-image">
-                    <div class="carousel">
-                        <div class="carousel-slide active"><img src="images/interior-1.jpg" alt="Interior Project" loading="lazy"></div>
-                    </div>
-                </div>
+            <!-- Project 06: Interior Project (6 images) -->
+<div class="project-item">
+    <div class="project-number">06</div>
+
+    <div class="project-info">
+        <h3 class="project-title">Interior Project</h3>
+
+        <p class="project-subtitle">Modern Living Interiors</p>
+
+        <p class="project-description">
+            A contemporary interior design project focused on spatial elegance,
+            refined material palettes, lighting composition, and functional luxury.
+        </p>
+    </div>
+
+    <div class="project-image">
+        <div class="carousel">
+
+            <div class="carousel-slide active">
+                <img src="images/Interior/interior-1.jpg" alt="Interior Project" loading="lazy">
             </div>
+
+            <div class="carousel-slide">
+                <img src="images/Interior/interior-2.jpg" alt="Interior Project" loading="lazy">
+            </div>
+
+            <div class="carousel-slide">
+                <img src="images/Interior/interior-3.jpg" alt="Interior Project" loading="lazy">
+            </div>
+
+            <div class="carousel-slide">
+                <img src="images/Interior/interior-4.jpg" alt="Interior Project" loading="lazy">
+            </div>
+
+            <div class="carousel-slide">
+                <img src="images/Interior/interior-5.jpg" alt="Interior Project" loading="lazy">
+            </div>
+
+            <div class="carousel-slide">
+                <img src="images/Interior/interior-6.jpg" alt="Interior Project" loading="lazy">
+            </div>
+
+            <button class="carousel-arrow prev">
+                <svg viewBox="0 0 24 24">
+                    <polyline points="15 18 9 12 15 6"/>
+                </svg>
+            </button>
+
+            <button class="carousel-arrow next">
+                <svg viewBox="0 0 24 24">
+                    <polyline points="9 18 15 12 9 6"/>
+                </svg>
+            </button>
+
+            <div class="carousel-dots">
+                <button class="carousel-dot active"></button>
+                <button class="carousel-dot"></button>
+                <button class="carousel-dot"></button>
+                <button class="carousel-dot"></button>
+                <button class="carousel-dot"></button>
+                <button class="carousel-dot"></button>
+            </div>
+
+        </div>
+    </div>
+</div>
 
             <!-- Project 07: Multidisciplinary Design Practice (7 images) -->
             <div class="project-item">
